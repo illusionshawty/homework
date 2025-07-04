@@ -166,4 +166,10 @@
         }
         });
 
+        // input mask
+
+        const telinputs = document.querySelectorAll('input[type="tel"]')
+        const im = new Imputmask('+7 (999) 999-99-99')
+        im.mask(telInputs)
+
     })()
